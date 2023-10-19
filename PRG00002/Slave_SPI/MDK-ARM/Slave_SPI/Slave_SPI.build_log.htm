@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ananth Rachakonda, Makers Hive Innovations Private Limited, LIC=77GVD-STL25-6DEPD-6A162-8KHDN-E6BA1
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Essential  Version: 5.28.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.6.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+D:\Marketing Team Hands\KA00002\Slave_SPI\MDK-ARM\Slave_SPI.uvprojx
+Project File Date:  02/14/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Slave_SPI'
+compiling main.c...
+../Src/main.c(2382): warning:  #188-D: enumerated type mixed with another type
+  						KalArm_CUST_GRIP_STAT_RES.current_thumb_position = rxData_SPI[1];
+../Src/main.c(2509): warning:  #188-D: enumerated type mixed with another type
+  							KalArm_EMG_OPEN.pattern = PATTERN_OPEN;
+../Src/main.c(2514): warning:  #188-D: enumerated type mixed with another type
+  							KalArm_EMG_CLOSE.pattern = PATTERN_CLOSE;
+../Src/main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=35180 RO-data=520 RW-data=100 ZI-data=3300  
+FromELF: creating hex file...
+"Slave_SPI\Slave_SPI.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32G4xx_DFP.1.2.0.pack
+                Keil.STM32G4xx_DFP.1.2.0
+                STMicroelectronics STM32G4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Slave_SPI
+  C:\Users\anant\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\anant\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
